@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/BriTFromIT/Brunch-MEHN-lab/issues"
   },
-  "homepage": "https://github.com/BriTFromIT/Brunch-MEHN-lab#readme"
+  "homepage": "https://github.com/BriTFromIT/Brunch-MEHN-lab#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }

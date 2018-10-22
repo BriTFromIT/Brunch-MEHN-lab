@@ -50,3 +50,5 @@ app.listen (PORT, () => {
 
 // updated folder structure  
 // updated folder structure 2
+
+// installed express, handlebars, and mongoose

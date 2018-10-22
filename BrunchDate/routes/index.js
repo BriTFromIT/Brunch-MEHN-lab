@@ -14,17 +14,12 @@ const userController = require('../controllers/user')
 //= =====================
 // Create a GET index route "/" that triggers the donut controller index function
 
-<<<<<<< HEAD
 router.get('/', function(req,res){
     res.send("testing")
 })
 router.get('/', function(req,res){
 res.send("tsting")
 })
-=======
-router.get('/brunch', brunchController.index)
-router.get('/user', userController.index)
->>>>>>> 8097ca289fb9f955fabfc473da52649f023336bb
 
 
 //= =====================
@@ -32,26 +27,16 @@ router.get('/user', userController.index)
 //= =====================
 // Create a GET new route "/new" that triggers the donut controller new function
 
-<<<<<<< HEAD
 // router.get('/new', brunchController.new)
 // router.get('/new', userController.new)
-=======
-router.get('/brunch/new', userController.new)
-router.get('/user/new', userController.new)
->>>>>>> 8097ca289fb9f955fabfc473da52649f023336bb
 
 //= =====================
 // SHOW
 //= =====================
 // Create a GET show route "/:id" that triggers the donut controller show function
 
-<<<<<<< HEAD
 // router.get('/:id', brunchController.show)
 // router.get('/:id', userController.show)
-=======
-router.get('/brunch/:id', brunchController.show)
-router.get('/user/:id', userController.show)
->>>>>>> 8097ca289fb9f955fabfc473da52649f023336bb
 
 
 //= =====================

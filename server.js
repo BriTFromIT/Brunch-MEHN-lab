@@ -46,7 +46,6 @@ app.listen (PORT, () => {
 
 
 //= =====================
-// CONNECT MONGOOSE TO "donut_store"
 
-// "successfully created donut_store database" 
- 
+
+// updated folder structure  

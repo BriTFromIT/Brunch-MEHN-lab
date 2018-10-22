@@ -7,7 +7,7 @@ const Brunch = Schema ({
  title: String,
  description: String,
  instructions: String,
- ingredients: Number
+ ingredients: String
  }
 })
 

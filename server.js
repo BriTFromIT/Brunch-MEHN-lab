@@ -1,17 +1,14 @@
-<<<<<<< HEAD
-=======
+
 //= =====================
 // REQUIREMENTS
 //= =====================
-// require express, method-override, morgan (logging tool), and our routes
->>>>>>> 488ee3dea6e43d270ffc036834b8adef983a1ee4
+// require express, method-override, morgan (logging tool), and our routes 
 const express = require('express')
 const app = express()
 const methodOverride = require('method-override')
 const logger = require('morgan')
 const routes = require('./routes/index')
-<<<<<<< HEAD
-=======
+
 
 
 //= =====================
@@ -52,4 +49,4 @@ app.listen (PORT, () => {
 // CONNECT MONGOOSE TO "donut_store"
 
 // "successfully created donut_store database" 
->>>>>>> 488ee3dea6e43d270ffc036834b8adef983a1ee4
+ 

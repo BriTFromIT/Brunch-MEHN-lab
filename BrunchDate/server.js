@@ -7,7 +7,7 @@ const express = require('express')
 const app = express()
 const methodOverride = require('method-override')
 const logger = require('morgan')
-const routes = require('./BrunchDate/routes/index')
+const routes = require('./routes/index')
 
 
 

@@ -43,15 +43,10 @@ res.send("tsting")
 // CREATE
 //= =====================
 // Create a POST index route "/" that triggers the donut controller create function
-<<<<<<< HEAD
 
 
 // router.post('/', brunchController.create)
 // router.post('/', userController.create)
-=======
-router.post('/brunch', brunchController.create)
-router.post('/user', userController.create)
->>>>>>> 8097ca289fb9f955fabfc473da52649f023336bb
 
 // create: (req, res) => {
 //     res.send('hello')
@@ -62,20 +57,14 @@ router.post('/user', userController.create)
 //= =====================
 // Create a GET edit route "/:id/edit" that triggers the donut controller edit function
 
-<<<<<<< HEAD
 // router.get('/:id/edit', brunchController.edit)
 // router.get('/:id/edit', userController.edit)
-=======
-router.get('/brunch/:id/edit', brunchController.edit)
-router.get('/user/:id/edit', userController.edit)
->>>>>>> 8097ca289fb9f955fabfc473da52649f023336bb
 
 
 //= =====================
 // UPDATE
 //= =====================
 // Create a PUT update route "/:id" that triggers the donut controller update function
-<<<<<<< HEAD
 
 // router.put('/:id', brunchController.update)
 // router.put('/:id', userController.update)
@@ -87,14 +76,6 @@ router.get('/user/:id/edit', userController.edit)
 // router.patch('/:id', userController.update)
 
 
-=======
-router.put('/:id', brunchController.update)
-router.put('/user/:id', userController.update)
-
-// Create a PATCH update route "/:id" that triggers the donut controller update function
-router.patch('/brunch/:id', brunchController.update)
-router.patch('/user/:id', userController.update)
->>>>>>> 8097ca289fb9f955fabfc473da52649f023336bb
 //= =====================
 // DELETE
 //= =====================
